@@ -1,0 +1,205 @@
+{
+	"version": "1.0.0",
+	"rss": "https://westeroscraft.com/articles/index.rss",
+	"servers": [{
+		"id": "terebros_prod  ",
+		"name": "Terebros - Serveur de Production",
+		"description": "Terebros - Serveur PvP Factions Moddé",
+		"icon": "",
+		"version": "0.0.1",
+		"address": "play.terebros.fr",
+		"minecraftVersion": "1.12.2",
+		"mainServer": true,
+		"autoconnect": false,
+		"modules": [{
+			"id": "net.minecraftforge:forge:1.12.2-14.23.5.2836",
+			"name": "Minecraft Forge",
+			"type": "ForgeHosted",
+			"artifact": {
+				"size": 5034429,
+				"url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2836/forge-1.12.2-14.23.5.2836-universal.jar"
+			},
+			"subModules": [{
+					"id": "net.minecraft:launchwrapper:1.12",
+					"name": "Mojang (LaunchWrapper)",
+					"type": "Library",
+					"artifact": {
+						"size": 32999,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/launchwrapper-1.12.jar"
+					}
+				},
+				{
+					"id": "org.ow2.asm:asm-all:5.2",
+					"name": "Mojang (ASM)",
+					"type": "Library",
+					"artifact": {
+						"size": 247787,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/asm-all-5.2.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang:scala-library:2.11.1",
+					"name": "Minecraft Forge (scala-library)",
+					"type": "Library",
+					"artifact": {
+						"size": 5489989,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-library-2.11.1.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang:scala-compiler:2.11.1",
+					"name": "Minecraft Forge (scala-compiler)",
+					"type": "Library",
+					"artifact": {
+						"size": 13298496,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-compiler-2.11.1.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+					"name": "Minecraft Forge (scala-actors-migration)",
+					"type": "Library",
+					"artifact": {
+						"size": 57370,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-actors-migration_2.11-1.1.0.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+					"name": "Minecraft Forge (scala-continuations-library)",
+					"type": "Library",
+					"artifact": {
+						"size": 25550,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-continuations-library_2.11-1.0.2.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+					"name": "Minecraft Forge (scala-continuations-plugin)",
+					"type": "Library",
+					"artifact": {
+						"size": 205229,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+					"name": "Minecraft Forge (scala-parser-combinators)",
+					"type": "Library",
+					"artifact": {
+						"size": 418586,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-parser-combinators_2.11-1.0.1.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang:scala-reflect:2.11.1",
+					"name": "Minecraft Forge (scala-reflect)",
+					"type": "Library",
+					"artifact": {
+						"size": 4321740,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-reflect-2.11.1.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang:scala-swing_2.11:1.0.1",
+					"name": "Minecraft Forge (scala-swing)",
+					"type": "Library",
+					"artifact": {
+						"size": 721105,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-swing_2.11-1.0.1.jar"
+					}
+				},
+				{
+					"id": "org.scala-lang:scala-xml_2.11:1.0.2",
+					"name": "Minecraft Forge (scala-xml)",
+					"type": "Library",
+					"artifact": {
+						"size": 646486,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-xml_2.11-1.0.2.jar"
+					}
+				},
+				{
+					"id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+					"name": "Minecraft Forge (akka-actor)",
+					"type": "Library",
+					"artifact": {
+						"size": 2499473,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/akka-actor_2.11-2.3.3.jar"
+					}
+				},
+				{
+					"id": "com.typesafe:config:1.2.1",
+					"name": "Minecraft Forge (typesafe-config)",
+					"type": "Library",
+					"artifact": {
+						"size": 216464,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/config-1.2.1.jar"
+					}
+				},
+				{
+					"id": "lzma:lzma:0.0.1",
+					"name": "Mojang (LZMA)",
+					"type": "Library",
+					"artifact": {
+						"size": 5762,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/lzma-0.0.1.jar"
+					}
+				},
+				{
+					"id": "net.sf.trove4j:trove4j:3.0.3",
+					"name": "Trove4J",
+					"type": "Library",
+					"artifact": {
+						"size": 2523218,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/trove4j-3.0.3.jar"
+					}
+				},
+				{
+					"id": "java3d:vecmath:1.5.2",
+					"name": "Vecmath",
+					"type": "Library",
+					"artifact": {
+						"size": 318956,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/vecmath-1.5.2.jar"
+					}
+				},
+				{
+					"id": "net.sf.jopt-simple:jopt-simple:5.0.3",
+					"name": "Jopt-simple",
+					"type": "Library",
+					"artifact": {
+						"size": 78175,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/jopt-simple-5.0.3.jar"
+					}
+				},
+				{
+					"id": "net.java.dev.jna:jna:4.4.0",
+					"name": "jna-4.4.0",
+					"type": "Library",
+					"artifact": {
+						"size": 1091208,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/jna-4.4.0.jar"
+					}
+				},
+				{
+					"id": "org.apache.maven:maven-artifact:3.5.3",
+					"name": "maven-artifact-3",
+					"type": "Library",
+					"artifact": {
+						"size": 54961,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/maven-artifact-3.5.3.jar"
+					}
+				},
+				{
+					"id": "net.minecraftforge:MercuriusUpdater:1.11.2",
+					"name": "MercuriusUpdater",
+					"type": "Library",
+					"artifact": {
+						"size": 15107,
+						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/MercuriusUpdater-1.12.2-1.0.0.14.jar"
+					}
+				}
+			]
+		}]
+	}]
+}
