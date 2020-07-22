@@ -2,7 +2,7 @@
 	"version": "1.0.0",
 	"rss": "https://westeroscraft.com/articles/index.rss",
 	"servers": [{
-		"id": "terebros_prod  ",
+		"id": "terebros_prod",
 		"name": "Terebros - Serveur de Production",
 		"description": "Terebros - Serveur PvP Factions Moddé",
 		"icon": "",
