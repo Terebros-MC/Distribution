@@ -7,26 +7,13 @@ on:
     branches: [master]
 jobs:
   build:
-    # Name the Job
     name: Vérifier le validité du fichier
-    # Set the agent to run on
     runs-on: ubuntu-latest
-
-    ##################
-    # Load all steps #
-    ##################
     steps:
-      ##########################
-      # Checkout the code base #
-      ##########################
-      - name: Checkout Code
+      - name: Copier le code
         uses: actions/checkout@v2
-
-      ################################
-      # Run Linter against code base #
-      ################################
-      - name: Lint Code Base
-        uses: github/super-linter@v3
+      - name: Utiliser JSONLint sur le code
+        uses: docker://github/super-linter:v3
         env:
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_JSON: true
