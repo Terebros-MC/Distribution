@@ -5,7 +5,7 @@
 		"id": "terebros_prod",
 		"name": "Terebros - Serveur PvP Factions",
 		"description": "Terebros - Serveur PvP Factions Moddé",
-		"icon": "",
+		"icon": "https://www.logolynx.com/images/logolynx/65/6591a493d6a737579c5f8d06bfb66a02.gif",
 		"version": "0.0.1",
 		"address": "play.terebros.fr",
 		"minecraftVersion": "1.12.2",
