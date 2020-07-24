@@ -11,13 +11,26 @@
 		"minecraftVersion": "1.12.2",
 		"mainServer": true,
 		"autoconnect": false,
-		"modules": [{
+		"modules": [
+			{
+    			"id": "fr.terebros:authlib-injector:1.1.29",
+    			"name": "Terebros Yggdrasil AuthServer Add-On",
+    			"type": "file",
+ 		    	"artifact": {
+  				"size": 304708,
+  				"MD5": "f340983141694076b09b588841a775ce",
+  				"path": "authlib-injector.jar",
+ 				"url": "http://files.terebros.fr/authlib-injector-1.1.29.jar"
+  				  }
+			}
+			{
 			"id": "net.minecraftforge:forge:1.12.2-14.23.5.2836",
 			"name": "Minecraft Forge",
 			"type": "ForgeHosted",
 			"artifact": {
 				"size": 5034429,
-				"url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2836/forge-1.12.2-14.23.5.2836-universal.jar"
+				"md5": "8e450771d40abc3592e35e5a33246437",
+				"url": "http://files.terebros.fr/forge/forge-1.12.2-14.23.5.2836-universal.jar"
 			},
 			"subModules": [{
 					"id": "net.minecraft:launchwrapper:1.12",
@@ -25,7 +38,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 32999,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/launchwrapper-1.12.jar"
+						"url": "http://files.terebros.fr/libraries/launchwrapper-1.12.jar"
 					}
 				},
 				{
@@ -34,7 +47,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 247787,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/asm-all-5.2.jar"
+						"url": "http://files.terebros.fr/libraries/asm-all-5.2.jar"
 					}
 				},
 				{
@@ -43,7 +56,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 5489989,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-library-2.11.1.jar"
+						"url": "http://files.terebros.fr/libraries/scala-library-2.11.1.jar"
 					}
 				},
 				{
@@ -52,7 +65,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 13298496,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-compiler-2.11.1.jar"
+						"url": "http://files.terebros.fr/libraries/scala-compiler-2.11.1.jar"
 					}
 				},
 				{
@@ -61,7 +74,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 57370,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-actors-migration_2.11-1.1.0.jar"
+						"url": "http://files.terebros.fr/libraries/scala-actors-migration_2.11-1.1.0.jar"
 					}
 				},
 				{
@@ -70,7 +83,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 25550,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-continuations-library_2.11-1.0.2.jar"
+						"url": "http://files.terebros.fr/libraries/scala-continuations-library_2.11-1.0.2.jar"
 					}
 				},
 				{
@@ -79,7 +92,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 205229,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
+						"url": "http://files.terebros.fr/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
 					}
 				},
 				{
@@ -88,7 +101,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 418586,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-parser-combinators_2.11-1.0.1.jar"
+						"url": "http://files.terebros.fr/libraries/scala-parser-combinators_2.11-1.0.1.jar"
 					}
 				},
 				{
@@ -97,7 +110,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 4321740,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-reflect-2.11.1.jar"
+						"url": "http://files.terebros.fr/libraries/scala-reflect-2.11.1.jar"
 					}
 				},
 				{
@@ -106,7 +119,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 721105,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-swing_2.11-1.0.1.jar"
+						"url": "http://files.terebros.fr/libraries/scala-swing_2.11-1.0.1.jar"
 					}
 				},
 				{
@@ -115,7 +128,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 646486,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/scala-xml_2.11-1.0.2.jar"
+						"url": "http://files.terebros.fr/libraries/scala-xml_2.11-1.0.2.jar"
 					}
 				},
 				{
@@ -124,7 +137,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 2499473,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/akka-actor_2.11-2.3.3.jar"
+						"url": "http://files.terebros.fr/libraries/akka-actor_2.11-2.3.3.jar"
 					}
 				},
 				{
@@ -133,7 +146,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 216464,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/config-1.2.1.jar"
+						"url": "http://files.terebros.fr/libraries/config-1.2.1.jar"
 					}
 				},
 				{
@@ -142,7 +155,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 5762,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/lzma-0.0.1.jar"
+						"url": "http://files.terebros.fr/libraries/lzma-0.0.1.jar"
 					}
 				},
 				{
@@ -151,7 +164,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 2523218,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/trove4j-3.0.3.jar"
+						"url": "http://files.terebros.fr/libraries/trove4j-3.0.3.jar"
 					}
 				},
 				{
@@ -160,7 +173,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 318956,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/vecmath-1.5.2.jar"
+						"url": "http://files.terebros.fr/libraries/vecmath-1.5.2.jar"
 					}
 				},
 				{
@@ -169,7 +182,7 @@
 					"type": "Library",
 					"artifact": {
 						"size": 78175,
-						"url": "https://modpack.mazecity.fr/MazeLauncher/libraries/jopt-simple-5.0.3.jar"
+						"url": "http://files.terebros.fr/libraries/jopt-simple-5.0.3.jar"
 					}
 				},
 				{
