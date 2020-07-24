@@ -22,7 +22,7 @@
   				"path": "authlib-injector.jar",
  				"url": "http://files.terebros.fr/authlib-injector-1.1.29.jar"
   				  }
-			}
+			},
 			{
 			"id": "net.minecraftforge:forge:1.12.2-14.23.5.2836",
 			"name": "Minecraft Forge",
