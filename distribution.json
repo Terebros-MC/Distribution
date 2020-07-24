@@ -29,7 +29,6 @@
 			"type": "ForgeHosted",
 			"artifact": {
 				"size": 5034429,
-				"md5": "8e450771d40abc3592e35e5a33246437",
 				"url": "http://files.terebros.fr/forge/forge-1.12.2-14.23.5.2836-universal.jar"
 			},
 			"subModules": [{
